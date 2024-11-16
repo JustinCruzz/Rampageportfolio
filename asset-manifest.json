@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Rampageportfolio/static/css/main.c5f34712.css",
+    "main.js": "/Rampageportfolio/static/js/main.c1d365a8.js",
+    "static/js/453.1407b060.chunk.js": "/Rampageportfolio/static/js/453.1407b060.chunk.js",
+    "static/media/music.jpg": "/Rampageportfolio/static/media/music.4d314f22c6602ef76aae.jpg",
+    "static/media/wall.jpg": "/Rampageportfolio/static/media/wall.71b1607cbe0f4e838263.jpg",
+    "static/media/pic.jpg": "/Rampageportfolio/static/media/pic.15e54e9f9f7b4c482192.jpg",
+    "static/media/govern.jpeg": "/Rampageportfolio/static/media/govern.7a2d37ef7746bfe0e4b6.jpeg",
+    "static/media/Github.svg": "/Rampageportfolio/static/media/Github.cccce645afeddd2c496cb6c5e2e6e3b3.svg",
+    "static/media/Gmail.svg": "/Rampageportfolio/static/media/Gmail.ddc17182a062d82b76da0aaff7ddaef0.svg",
+    "static/media/Linkedin.svg": "/Rampageportfolio/static/media/Linkedin.cb2aca0861a1f832821ca8b55837b69e.svg",
+    "index.html": "/Rampageportfolio/index.html",
+    "main.c5f34712.css.map": "/Rampageportfolio/static/css/main.c5f34712.css.map",
+    "main.c1d365a8.js.map": "/Rampageportfolio/static/js/main.c1d365a8.js.map",
+    "453.1407b060.chunk.js.map": "/Rampageportfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5f34712.css",
+    "static/js/main.c1d365a8.js"
+  ]
+}
