@@ -1,7 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
+  margin: 0 auto;
+  background-image: url("./asset/wall.jpg");
+  color: white;
+  background-size: cover; 
+  position: relative;
 }
 
+
+@media(max-width:768px){
+  .App{
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

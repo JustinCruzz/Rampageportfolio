@@ -1,0 +1,22 @@
+.contact
+{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+table td{
+    width: 90px;
+    height: 30px;
+}
+table{
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.527);
+    border: 1px  solid silver;
+    border-radius: 10px;
+}

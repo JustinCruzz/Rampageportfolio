@@ -1,0 +1,62 @@
+.projects{
+    margin-top: 100px;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.projects >:first-child{
+    margin-bottom: 40px;
+}
+.cards{
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 260px;
+    height: 370px;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 10px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+.card:hover{
+    background-color:rgba(128, 128, 128, 0.444);
+    transform: scale(1.03);
+    box-shadow: 0px 0px 30px white;
+}
+.card img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card h1{
+    font-size: large;
+    font-weight: bold;
+}
+
+.font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@keyframes appear {
+   from{
+    opacity: 0;
+    transform: translate(-100px);
+   }
+   to{
+    opacity: 1;
+    transform: translate(0px);
+
+   }
+}

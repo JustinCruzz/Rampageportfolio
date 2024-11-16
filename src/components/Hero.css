@@ -1,0 +1,121 @@
+.container1{
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    width: 860px;
+    margin-top: 100px;
+    gap: 10px;
+
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse; /* Stacks elements in a column */
+    }
+}
+.about{
+    display: flex;
+    font-size: larger;
+    flex-direction: column;
+    justify-content: center;
+    gap: 27px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 40px;
+}
+.about p{
+    text-shadow: 0px 1px 10px white;
+    
+}
+.about h1{
+    text-shadow: 0px 0px 7px white;
+    animation: anim 2s ease-in-out;
+}
+@keyframes anim {
+    0%{
+        transform:translateX(-300px);
+    }
+    50%{
+        transform: translate(0px);
+    }
+    65%{
+        transform: translate(-30px);
+    }
+    75%{
+        transform: translate(-0px);
+    }
+    85%{
+        transform: translate(-15px);
+    }
+   
+    100%{
+        transform: translate(zx0px);
+    }
+    
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.links a:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px white;
+}
+.links a img{
+    width: 26px;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px grey;
+}
+.resume{
+    width: 100px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+.resume:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px white;
+}
+.resume a{
+    text-decoration: none;
+    color: black;
+}
+.profilePic img{
+    background-color: transparent;
+    width: 300px;
+    height: 290px;
+    box-shadow: 1px 1px 1px rgba(163, 163, 163, 0.352);
+    border-radius: 50%;
+    object-fit: cover;
+    background-size: cover;
+    animation: textanim 3s ease-in-out;
+}
+@keyframes textanim {
+    from{
+        filter: blur(4px);
+        filter:opacity(0.8);
+        transform:translateX(200px);
+        box-shadow: 19px -10px 110px white;
+    }
+    to{
+        filter: blur(0px);
+        filter: opacity(1);
+        transform: translate(0px);
+        box-shadow: 0px 0px 0px white;
+    
+    }
+}
+
+.profilePic:hover{
+    transform: scale(1.03);
+}
+.font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
