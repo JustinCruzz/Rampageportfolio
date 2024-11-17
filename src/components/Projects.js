@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <div>
       <div className="projects font">
-        <h1><u>PROJECT'S</u></h1>
+        <h1><u>PROJECTsS</u></h1>
         <div className="cards ">
           <div className="card ">
             <img src={music} alt="MUSIC " />
